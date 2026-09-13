@@ -1,6 +1,8 @@
 @echo off
 chcp 65001 >nul
 cd /d "%~dp0"
+set "PYTHONIOENCODING=utf-8"
+set "PYTHONUTF8=1"
 
 echo ========================================
 echo   SoftHubCC.github.io Auto Push
@@ -18,7 +20,7 @@ if errorlevel 1 (
 :: --- Check GitHub Token ---
 set "GH_TOKEN="
 if exist "%~dp0releases\github_token.txt" (
-    set /p GH_TOKEN=<"%~dp0releases\github_token.txt"
+    for /f "usebackq delims=" %%t in ("%~dp0releases\github_token.txt") do set "GH_TOKEN=%%t"
 )
 if "%GH_TOKEN%"=="" (
     echo [ERROR] Token file not found at releases\github_token.txt
@@ -36,12 +38,12 @@ if "%HAS_CHANGES%"=="0" (
     echo [INFO] Changes detected, preparing commit...
 
     :: --- Read commit message ---
-    set "MSG="
+    set "MSG=auto release"
     if exist "%~dp0msg.txt" (
-        set /p MSG=<"%~dp0msg.txt"
+        for /f "usebackq delims=" %%l in ("%~dp0msg.txt") do if not defined MSG set "MSG=%%l"
     )
-    if "%MSG%"=="" (
-        set "MSG=auto release %date% %time%"
+    if not defined MSG (
+        set "MSG=auto release %date:~0,10% %time:~0,5%"
     )
 
     echo [COMMIT] %MSG%
