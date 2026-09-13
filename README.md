@@ -6,15 +6,13 @@
 
 ### KeyMouseMate
 轻量级 Windows 桌面自动化工具（RPA），通过「方案 → 节点 → 动作」三层模型实现键鼠操作录制与回放。
-- **版本**：v2.1.26254
-- **下载量**：10k+
-- **GitHub**：https://github.com/SoftHubCC/KeyMouseMate
+- **版本**：v2.1
+- **GitHub**：https://github.com/SoftHubCC/KeyMouseMateSite
 
 ### KeyMouseViz
 键鼠可视化助手，实时显示鼠标轨迹、点击效果和按键动画，配备放大镜和聚光灯效果。
-- **版本**：v1.0.26254
-- **下载量**：5k+
-- **GitHub**：https://github.com/SoftHubCC/KeyMouseViz
+- **版本**：v1.0
+- **GitHub**：https://github.com/SoftHubCC/KeyMouseVizSite
 
 ## 联系我们
 
