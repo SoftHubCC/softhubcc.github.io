@@ -1,26 +1,26 @@
-# SoftHubCC Official Homepage
+# SoftHubCC - 软件驿站
 
-Welcome to SoftHubCC's official homepage. We build open-source automation tools for everyone.
+欢迎来到 SoftHubCC 的官方主页。我们专注于开发 Windows 桌面自动化工具，让重复操作一键完成。
 
-## Projects
+## 项目
 
 ### KeyMouseMate
-RPA automation tool with real-time keyboard and mouse visualization.
-- **Version**: v2.1.26254
-- **Downloads**: 10k+
-- **GitHub**: https://github.com/SoftHubCC/KeyMouseMate
+轻量级 Windows 桌面自动化工具（RPA），通过「方案 → 节点 → 动作」三层模型实现键鼠操作录制与回放。
+- **版本**：v2.1.26254
+- **下载量**：10k+
+- **GitHub**：https://github.com/SoftHubCC/KeyMouseMate
 
 ### KeyMouseViz
-Real-time keyboard and mouse activity visualization tool.
-- **Version**: v1.0.26254
-- **Downloads**: 5k+
-- **GitHub**: https://github.com/SoftHubCC/KeyMouseViz
+键鼠可视化助手，实时显示鼠标轨迹、点击效果和按键动画，配备放大镜和聚光灯效果。
+- **版本**：v1.0.26254
+- **下载量**：5k+
+- **GitHub**：https://github.com/SoftHubCC/KeyMouseViz
 
-## Contact
+## 联系我们
 
-- **GitHub**: https://github.com/SoftHubCC
-- **Email**: flyyhui@qq.com
+- **GitHub**：https://github.com/SoftHubCC
+- **邮箱**：flyyhui@qq.com
 
-## License
+## 许可证
 
-MIT License - Feel free to use and modify.
+MIT License - 欢迎使用和修改。
