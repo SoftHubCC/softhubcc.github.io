@@ -18,7 +18,3 @@
 
 - **GitHub**：https://github.com/SoftHubCC
 - **邮箱**：flyyhui@qq.com
-
-## 许可证
-
-MIT License - 欢迎使用和修改。
